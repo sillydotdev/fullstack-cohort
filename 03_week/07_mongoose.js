@@ -16,6 +16,13 @@ app.use(express.json());
 
 function userExists(username, password) {
   // should check in the database
+  let userExists = false;
+  for(let i=0; i<User.length; i++) {
+    if(User[i].username == username && User[i].password == password) {
+      return true
+    }
+  }
+  return userExists;
 }
 
 app.post("/signin", async function (req, res) {
