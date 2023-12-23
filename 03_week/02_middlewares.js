@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 app.use(express.json())
 
-
+// user middleware
 function userMiddleware(req, res, next) {
     const username = req.query.username;
     const password = req.query.password;
@@ -16,6 +16,7 @@ function userMiddleware(req, res, next) {
     }
 };
 
+// kidney middleware
 function kidneyMidleware(req, res, next) {
     const kidneyId = req.query.kidneyId;
 
