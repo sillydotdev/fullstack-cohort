@@ -15,8 +15,8 @@
 </body>
 <script>
     let timeout;
-    function debounceAddition() {
-        clearTimeout(timeout);
+    function debounceAddition() {   // ideally what this function does is that if we enter a digit in one box a new request call is sent,
+        clearTimeout(timeout);      // this function waits for 1 second to send the request call. It sends after 1 second
         timeout = setTimeout(() => {
             addition()
         }, 1000);
