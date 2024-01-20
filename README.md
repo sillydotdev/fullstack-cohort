@@ -13,4 +13,5 @@ This is a repository dedicated to all the learning from FullStack Cohort by Hark
 5. Why React was introduced
 6. Reconcilation
 7. React
+8. TailwindCss
 
