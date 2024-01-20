@@ -33,10 +33,10 @@ function App() {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
         <div className='bg-red-500'>My name is Kamran</div>
-        <div className='bg-yellow-500'>My name is Danish</div>
+        <div className='bg-violet-500'>My name is Danish</div>
         <div className='bg-green-500'>My name is Saqib</div>
-        <div className='bg-green-500'>My name is Ashraf</div>
-        <div className='bg-green-500'>My name is Burhan</div>
+        <div className='bg-yellow-500'>My name is Ashraf</div>
+        <div className='bg-pink-500'>My name is Burhan</div>
       </div>
 
       <div className='bg-red-500 md:bg-blue-500'>
