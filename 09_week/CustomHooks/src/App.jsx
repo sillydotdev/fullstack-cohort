@@ -4,7 +4,7 @@ import axios from 'axios'
 // data fetching custom hook
 function useTodos(n) {
   const [todos, setTodos] = useState([])
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true)  // loading state 
 
   function getData() {
     axios.get("https://sum-server.100xdevs.com/todos")
