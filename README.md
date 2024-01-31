@@ -14,6 +14,8 @@ This is a repository dedicated to all the learning from FullStack Cohort by Hark
 6. Reconcilation
 7. React
 8. TailwindCss
-9. Hooks, Custom Hooks
+9. Hooks
+    1. React Hooks
+    2. Custom Hooks
 10. Typescript
 
