@@ -18,4 +18,5 @@ This is a repository dedicated to all the learning from FullStack Cohort by Hark
     1. React Hooks
     2. Custom Hooks
 10. Typescript
+11. Postgres
 
