@@ -19,4 +19,5 @@ This is a repository dedicated to all the learning from FullStack Cohort by Hark
     2. Custom Hooks
 10. Typescript
 11. Postgres
+12. Prisma
 
